@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Page</title>
+    <script src="C:\Users\Moeen\Desktop\profile\JS\script.js"></script>
+</head>
+<body>
+    <button data-page="Info_page">Blog_page</button>
+    <button data-page="Info_page">Info_page</button>
+    <button data-page="Data_page">Data_page</button>
+    <button data-page="Form">Form</button>
+    <div id="Blog_page">
+        
+    </div>
+    <div id="Info_page">
+    <h1>Info Page</h1>
+    <img src="C:\Users\Moeen\Desktop\profile\IMG\1600w-4oF1bAeGYrg.webp" height="320px" width="280px" >
+    <h1>Web Designer</h1>
+    <p>My self Moeen. I'm  a result-oriented and highly motivated interface designer. I enjoy creating effortless user experience and designing delightful interfaces for web & mobile apps. Bahu changa ha na main.
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam quisquam maiores illum autem ratione rerum, debitis sunt voluptatum dolorum natus delectus provident beatae fugiat aliquid dolore, quis officiis neque nesciunt! okie .
+
+</div>
+<div id="Data_page">
+       <h1>Data Page</h1>
+       <img src="C:\Users\Moeen\Desktop\profile\IMG\images em.jpeg" height="300px" width="280px">
+       <h2>Stewie</h2>
+       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi, iste neque. Nesciunt omnis eveniet nihil sit ea ducimus fuga laboriosam, architecto at incidunt doloremque assumenda ratione, sequi minus, fugit repellendus!</p>
+
+</div>
+<div id="Form">
+     <!-- Form 1 -->
+     <form action="">
+        <h1>Payment Form </h1>
+        <p>Required fields are denoted by * .</p>
+        <h2>Contact Information</h2>
+        <p>*Name <input type="text" name="name" required></p>
+        <fieldset>
+            <legend>Gender</legend>
+            <p>*Male <input type="radio" name="gender" id="male" required>
+            <p>*Female <input type="radio" name="gender" id="female" required>
+        </fieldset>
+
+        </p>
+        <p>Address <textarea name="address" id="address" cols="100" rows="8"></textarea></p>
+        <p>*Email <input type="email" name="emale" id="emale" required></p>
+        <P>*Pincode <input type="number" name="pincode" id="pincode" required></P>
+        <h2>Payment Information</h2>
+        <p>*Card Type
+            <select name="card_type" id="card_type" required>
+                <option value="">--select card type--</option>
+                <option value="">visacard</option>
+                <option value="">Mastercard</option>
+                <option value="">rupay</option>
+            </select>
+        </p>
+        <p>*Card number <input type="number" name="card_number" id="card_number" required></p>
+        <p>*Expiration Date <input type="date" name="exp_date" id="exp_date" required></p>
+        <p>*CVV <input type="password" name="cvv" id="cvv" required></p>
+        <input type="submit" value="Pay Now">
+    </form>
+    <hr>
+    <!-- Table 2 -->
+    <h1>Table</h1>
+    <table border="1">
+        <thead>
+        <tr>
+            <th>Number</th>
+            <th>Subject</th>
+            <th>Obtained Marks</th>
+            <th>Total Marks</th>
+            <th>Percentage</th>
+         </tr>
+        </thead>
+        <tbody>
+           <tr>
+            <td>1</td>
+            <td>English</td>
+            <td>55</td>
+            <td>60</td>
+            <td>90%</td>
+           </tr>
+           <tr>
+            <td>2</td>
+            <td>Mathematics</td>
+            <td>45</td>
+            <td>60</td>
+            <td>75%</td>
+           </tr>
+           <tr>
+            <td>3</td>
+            <td>chemistry</td>
+            <td>50</td>
+            <td>60</td>
+            <td>80%</td>
+           </tr>
+           <tr>
+            <td>4</td>
+            <td>Urdu</td>
+            <td>40</td>
+            <td>60</td>
+            <td>70%</td>
+           </tr>
+           <tr>
+            <td>5</td>
+            <td>Arabic</td>
+            <td>50</td>
+            <td>60</td>
+            <td>80%</td>
+           </tr>
+        </tbody>
+        <tfoot>
+            <th colspan="5">Result = PASS</th>
+        </tfoot>
+    </table>
+    <hr>
+    <!-- Form -->
+    <form action="">
+        <h1>Netfix Premium Payment</h1>
+        <h2>Contact Info</h2>
+        <p>Required fields are followed by *</p>
+        <p>*Name : <input type="text" name="name" required></p>
+        <fieldset>
+         <legend>*Gender</legend>
+        <p>Male <input type="radio" name="gender" id="male" required> Female <input type="radio" name="gender" id="female" required></p>
+    </fieldset>
+    <p>*Address : <textarea name="textarea" id="textarea" cols="120" rows="10" required></textarea></p>
+    <p>*Email : <input type="email" name="email" id="email" required></p>
+    <p>*Pincode : <input type="number" name="pincode" id="pincode"required></p>
+    <h2>Payment Info</h2>
+     <p>*Card details :  <select name="card_type" id="card_type" required>
+        <option value="">--Select Card Type--</option>
+        <option value="visa">Visa</option>
+        <option value="mastercard">Mastercard</option>
+        <option value="rupay">Rupay</option>
+        <option value="jazzcash">JazzCash</option>
+        <option value="debitcard">Debitcard</option>
+      </select></p>
+    <p>*Card number : <input type="number" name="class_number" id="class_number" required></p>
+     <p>Expiration Date : <input type="date" name="date" id="date"></p>
+     <p>*CVV : <input type="password" name="cvv" id="CVV" required></p>
+     <input type="submit" value="Pay Now">
+    </form>
+    <h1 class="h11">Ending for now</h1>
+</div>
+</div>
+</body>
+</html>

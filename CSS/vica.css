@@ -1,0 +1,38 @@
+*{
+    /* background-image: url(C:\Users\Moeen\Desktop\profile\IMG\pexels-pixabay-531880.jpg);
+    background-size: cover; */
+    /* background-color:rgba(50, 97, 167, 0.358) ; */
+}
+nav{
+    background-color: rgba(50, 97, 167, 0.785);
+    height: 50px;
+}
+nav a{
+    padding: 15px;
+    text-decoration: none;
+    /* text-align: center; */
+    float: left ;
+    font-size: 25px;
+    color: rgb(0, 0, 0);  
+     
+}
+.head_background{
+    background-color: rgba(50, 97, 167, 0.785) ;
+    padding: 30px;
+    text-align: center;
+    /* background-image: url("/IMG/animated-wolf.jpg ")  ;
+    background-size: 100px;
+    height: 200px;
+    width: 600px; 
+    overflow: hidden; */
+}
+nav a:hover{
+    color: rgb(255, 255, 255);
+}
+.artical {
+    text-align: center;
+
+}
+footer{
+    background-color: rgba(50, 97, 167, 0.785);
+}

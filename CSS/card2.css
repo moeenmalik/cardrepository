@@ -1,0 +1,85 @@
+/* Profile card */
+.card {
+    display: inline-block;
+
+}
+.card-body {
+    background-color:  rgb(100, 180, 224);  
+    
+}
+.btn-primary {
+    background-color: rgb(17, 129, 190); 
+}
+/* profile card2 */
+/* .card-body2 {
+    background-color: peachpuff; */
+    
+}
+
+/* Card CSS */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.icon-botton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    font-size: 22px;
+
+}
+
+.facebook {
+    background-color: rgb(11, 70, 164);
+    color: white;
+}
+
+.instagram {
+    background-color: rgb(147, 27, 203);
+    color: white;
+}
+
+.snapchat {
+    background-color: rgb(255, 234, 0);
+    color: white;
+}
+
+.youtube {
+    background-color: rgb(212, 22, 22);
+    color: white;
+}
+/* carousels */
+.carousel {
+    width: 800px;
+    margin-left: 170px;
+    margin-top: -228px;
+    height: 450px;
+    padding: 2px;
+}
+.card1{
+    background-color: rgb(116, 116, 116);
+}
+.flex-container {
+    display: inline;
+    flex-direction:row ;
+    align-items: center;
+    margin-left: 2px;
+    
+    z-index: 5px;
+    /* background-color: DodgerBlue; */
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    text-align: center;
+    font-size: 30px;
+  }
+
+
+
